@@ -1,5 +1,5 @@
 $(document).ready(function() {
   
-   $("#accordion").accordion();
+   $("#auto1").autocomplete({source:["Дмитрий","Мария","Владимир","Алексей","Екатерина","Олег","Ольга"]});
 
 });
