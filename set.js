@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
-   $("#sort1").sortable();
+  
+   $("#sort1,#sort2").sortable({connectWith:".connect"});
 
 });
