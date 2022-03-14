@@ -1,5 +1,5 @@
 $(document).ready(function(){
 
-   $("#resize1").resizable();
+   $("#select1").selectable();
 
 });
