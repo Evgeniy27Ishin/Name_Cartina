@@ -1,33 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head> 
-	<meta charset="UTF-8"git>
+<head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="set.js"> </script>
+	<title>Document</title>
+	<script src="set.js"></script>
 </head>
-<style>
-	img {width: 200px;}
-</style>
-<body>
-	<button id="btn" onclick="loadStudenst()">Обновить</button> 
-	<table id="tbl_all">
-		<tr>
-			<th>ID</th>
-			<th>Имя</th>
-			<th>Фамилия</th>
-		</tr>
-	</table>
-	<div id="info"></div>
-</body>
 
-<style>
+<body onload="draw()">
+	<canvas id="drawRound" width="600" height="300" style="border:1px solid"></canvas>
+	
+<style>#drawRound {
+    width: 600px;
+    height: 300px;
+    margin: 40px;
+    background-image: url(grid.png);
+	}
 
 </style>
-<body>
-
-</body>
-
 </body>
 </html>
