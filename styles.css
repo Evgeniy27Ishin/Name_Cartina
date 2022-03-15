@@ -1,6 +1,74 @@
-#accordion1
+#container1
 {
-margin:8px;
-width:70%;
-font-size:0.9em;
+margin:6px 20px 6px 0px;
+font-size:0.7em;
+padding:7px;
+width:150px;
+height:100px;
+border:1px solid grey;
+overflow:hidden;
+float:left;
+}
+#container1 h2
+{
+margin:0px 0px 13px 0px;
+}
+#container1 p
+{
+margin:0px;
+}
+.ui-widget-header
+{
+text-align:center;
+}
+#container2
+{
+margin:6px;
+font-size:0.7em;
+padding:7px;
+width:150px;
+height:100px;
+border: 1px solid grey;
+overflow:hidden;
+}
+#container2 h2
+{
+margin:0px 0px 13px 0px;
+}
+#container2 p
+{
+margin:0px;
+}
+.ui-widget-header
+{
+text-align:center;
+}
+#but1
+{
+clear:both;
+}
+#square
+{
+margin:0px 0px 0px 30px;
+border:1px solid black;
+width:90px;
+height:70px;
+padding:20px 10px 10px 10px;
+}
+.square
+{
+border-style:solid;
+border-width:1px;
+width:220px;
+letter-spacing:0px;
+}
+.Применить анимацию 1
+{
+color:#7608AA;
+background-color:#FFF1B1;
+font-size:1.5em;
+width:550px;
+height:40px;
+padding:40px;
+letter-spacing:10px;
 }
