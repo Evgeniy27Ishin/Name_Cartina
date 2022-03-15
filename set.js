@@ -1,11 +1,12 @@
-$(document).ready(function() {
+$(document).ready(function(){
 
-   $("#datepicker").datepicker();
-   $("#datepicker1").datepicker({
-      monthNames:["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
-      dayNamesMin:["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
-      firstDay:1,
-      dateFormat:"dd.mm.yy"
-   });
+   $("#accordion1").accordion();
+   $("#musca").accordion();
+   $("#calicidae").accordion();
 
+
+
+   $("#auto1").autocomplete({source:["Филиппины","Израиль","Германия"]});
+   
+   $("#el1,#el2,#el3").button();
 });
